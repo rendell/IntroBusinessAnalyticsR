@@ -1,0 +1,83 @@
+---
+title: "Introduction to Business Analytics with R"
+author: "Rendell E . de Kort"
+date: "March 3, 2019"
+output:
+  ioslides_presentation:
+    css: styles.css
+---
+
+
+## Introdution
+
+Who are you?
+
+What do you expect to learn?
+```{r echo=FALSE,results='hide', warning = FALSE, error = FALSE, message=FALSE}
+library(jpeg)
+library(knitr)
+img1_path <- "C:/Users/RendelldeKort/OneDrive - Cornerstone Economics/Lovely Data/Introduction to R for business analytics/LovelyData.JPG"
+img1 <- readJPEG(img1_path, native = TRUE)
+```
+
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+
+
+## Lovely Data
+Add text
+
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+
+## Cornerstone Economics
+add text
+
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+
+## Excel chaos
+- Data locked in inflexible and expensive single-purpose silos
+- Untrustworthy or missing data
+- Frustrated analysts and data scientists circumventing you with shadow IT
+- An odd assortment of proprietary products and services requiring integration
+- Lagging behind, always trying to catch up and meet business requirements
+
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+
+## An Introduction to R
+Examples what it can do
+
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+
+
+## Learning objectives
+to be completed
+
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+
+## Let's take a short break...
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+## Swirl assignment 
+Practise in the R console
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+
+## Swirl assignment to take home
+information
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+
