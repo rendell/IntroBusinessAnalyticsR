@@ -17,7 +17,7 @@ What do you expect to learn?
 library(jpeg)
 library(knitr)
 img1_path <- "C:/Users/RendelldeKort/OneDrive - Cornerstone Economics/Lovely Data/Introduction to R for business analytics/LovelyData.JPG"
-img1 <- readJPEG(img1_path, native = TRUE)
+img_logoLD <- readJPEG(img1_path, native = TRUE)
 ```
 
 ```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
@@ -69,15 +69,19 @@ include_graphics(img1_path)
 ```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
 include_graphics(img1_path)
 ```
+
 ## Swirl assignment 
+
 Practise in the R console
+
 ```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
 include_graphics(img1_path)
 ```
 
 ## Swirl assignment to take home
+
 information
+
 ```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
 include_graphics(img1_path)
 ```
-
