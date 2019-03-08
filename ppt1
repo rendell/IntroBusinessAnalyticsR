@@ -1,12 +1,9 @@
 ---
 title: "Introduction to Business Analytics with R"
-author: "Rendell E . de Kort"
+author: "Rendell E . de Kort - Lovely Data"
 date: "March 3, 2019"
-output:
-  ioslides_presentation:
-    css: styles.css
+output: ioslides_presentation
 ---
-
 
 ## Introdution
 
@@ -26,7 +23,8 @@ include_graphics(img1_path)
 
 
 ## Lovely Data
-Add text
+
+
 
 ```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
 include_graphics(img1_path)
@@ -51,11 +49,50 @@ include_graphics(img1_path)
 ```
 
 ## An Introduction to R
-Examples what it can do
+Saying R is powerful is actually an understatement.From the business context, R is like Excel on steroids! But more important than just muscle is the combination of what R offers: **Brains**, **Muscle**, and **Heart**.
 
 ```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
 include_graphics(img1_path)
 ```
+
+## R has brains
+R implements cutting-edge algorithms including:
+ * H2O (h2o) - High-end machine learning package
+ * Keras/TensorFlow (keras, tensorflow) - Go-to deep learning packages
+ * xgboost - Top Kaggle algorithm
+ * And many more!
+These tools are used everywhere from AI products to Kaggle Competitions, and you can use them in your business analyses.
+
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+## R has muscle
+R has powerful tools for:
+
+ * Vectorized Operations - R uses vectorized operations to make math  * computations lightning fast right out of the box
+ * Loops (purrr)
+ * Parallelizing operations (parallel, future)
+ * Speeding up code using C++ (Rcpp)
+ * Connecting to other languages (rJava, reticulate)
+ * Working With Databases - Connecting to databases (dbplyr, odbc, bigrquery)
+ * Handling Big Data - Connecting to Apache Spark (sparklyr)
+ * And many more!
+
+## R has heart
+We already talked about the infrastructure, the tidyverse, that enables the ecosystem of applications to be built using a consistent approach. It’s this infrastructure that brings life into your data analysis. The tidyverse enables:
+
+ * Data manipulation (dplyr, tidyr)
+ * Working with data types (stringr for strings, lubridate for date/datetime, forcats for categorical/factors)
+ * Visualization (ggplot2)
+ * Programming (purrr, tidyeval)
+ * Communication (Rmarkdown, shiny)
+ 
+ Being a powerful language alone is not enough. To be successful, a language needs community support. We’ll hit on two ways that R excels in this respects: CRAN and the R Community.
+ 
+CRAN is like the Apple App store, except everything is free, super useful, and built for R. With over 14,000 packages, it has most everything you can possibly want from machine learning to high-performance computing to finance and econometrics! 
+
+You begin learning R because of its capability, you stay with R because of its community. The R Community is the coolest part. It’s tight-knit, opinionated, fun, silly, and highly knowledgeable… all of the things you want in a high performing team.
+
 
 
 ## Learning objectives
@@ -70,6 +107,37 @@ include_graphics(img1_path)
 include_graphics(img1_path)
 ```
 
+## Install packages
+The tidyverse containts a number of incredibly usefull packages, some of which we will be making use of in the course, including:
+
+* **ggplot2**: a system for declaratively creating graphics
+* **dplyr**: provides a grammar of data manipulation
+* **tidyr**: provides a set of functions that help you get to tidy data
+* **readxl**: for .xls and .xlsx sheets
+* **haven**: for SPSS, Stata, and SAS data
+**shiny**: Building web applications
+**markdown**: Turns analyses into documents, reports, presentations and dashboards
+
+
+```{r eval=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+install.packages("tidyverse")
+```
+
+
+
+## Install packages (Continued)
+Swirl will serve as a tool to complete tutorials within your R console.Type:
+```{r eval=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+install.packages("swirl")
+library(swirl)
+```
+FOllow the instructions in your R console
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+
+
+
 ## Swirl assignment 
 
 Practise in the R console
@@ -82,6 +150,11 @@ include_graphics(img1_path)
 
 information
 
+```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
+include_graphics(img1_path)
+```
+
+## THANK YOU
 ```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
 include_graphics(img1_path)
 ```
