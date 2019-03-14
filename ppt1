@@ -7,8 +7,8 @@ output: ioslides_presentation
 
 ## Introdution
 
-Who are you?
-
+What is your educational and professional background?
+Whay are you passionate about analytics/data?
 What do you expect to learn?
 ```{r echo=FALSE,results='hide', warning = FALSE, error = FALSE, message=FALSE}
 library(jpeg)
@@ -47,6 +47,7 @@ include_graphics(img1_path)
 ```{r out.width = "10%", echo=FALSE, warning = FALSE, error = FALSE, message=FALSE}
 include_graphics(img1_path)
 ```
+## What's so exciting about the field?
 
 ## An Introduction to R
 Saying R is powerful is actually an understatement.From the business context, R is like Excel on steroids! But more important than just muscle is the combination of what R offers: **Brains**, **Muscle**, and **Heart**.
