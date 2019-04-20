@@ -11,6 +11,20 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Review of experience
 
+
+## Missing Values are contagious
+```{r}
+NA +10
+NA / 2
+NA > 5
+10 == NA
+NA == NA
+The most important property of missing values is that they are contagious.
+Basic math with a missing value such as adition or multiplication always results in a missing value.
+Similarly, any logical comparison with a missing value returns a missing value.
+
+```
+
 ## Code example
 ```{R eval=TRUE,echo=TRUE,warning=FALSE, error=FALSE,message=FALSE}
 library(tidyquant)
